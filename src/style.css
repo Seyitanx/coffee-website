@@ -1,0 +1,47 @@
+:root {
+  --primary-color: rgb(0, 0, 0);
+  --background-color: rgb(201, 171, 129);
+   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.primary-link {
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  padding: 15px 15px;
+  text-decoration: none;
+  color: white;
+  box-shadow: var(--box-shadow);
+}
+.primary-link:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+h1, h2{
+    color: white;
+    font-size: 18px;
+}
+p{
+    background-color: white;
+    color:black;
+    padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.email-link{
+     display: flex;
+  justify-content: center;
+  font-size: 28px;
+  text-decoration: none;
+  color: white;
+}
+.email-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+.body{
+    background-color: var(--background-color)
+}
